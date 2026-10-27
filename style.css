@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #fff5f8, #f8d7e3);
+}
+
+/* header {
+  background: linear-gradient(90deg, #4a0a22, #800f3a);
+  
+} */
+
+.navbar {
+  padding: 15px 0;
+  height: 50px;
+  background: linear-gradient(90deg, #4a0a22, #800f3a);
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: pink;
+}
+
+.nav-link {
+  color: white;
+  font-size: 15px;
+}
+
+.nav-link.active {
+  color: pink !important;
+}
+
+.nav-link:hover {
+  color: pink;
+}
+
+.navbar-toggler {
+  background: white;
+}
+
+.btn-outline-success {
+  background: #800f3a;
+  color: white;
+  border: none;
+}
+
+.btn-outline-success:hover {
+  background: #4a0a22;
+  color: white;
+}
+
+.product-card {
+  background: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px #bbb;
+  height: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 20px;
+  /* font-weight: bold; */
+}
+
+.card-text {
+  color: #800f3a;
+  font-size: 18px;
+  /* font-weight: bold; */
+}
+
+.card-body .btn {
+  font-size: 13px;
+  padding: 8px;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: #800f3a;
+  color: white;
+  border: none;
+}
+
+.btn-warning {
+  background: #a52a52;
+  color: white;
+  border: none;
+}
+
+.btn-danger {
+  background: #4a0a22;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #4a0a22;
+  color: white;
+}
+
+.btn-warning:hover {
+  background: #800f3a;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: #c04470;
+  color: white;
+}
+
+.modal-header {
+  background: #800f3a;
+  color: white;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-body {
+  background: #fff5f8;
+}
+
+.modal-footer {
+  background: #ffe4ed;
+}
+
+#cartModal .modal-dialog {
+  max-width: 850px;
+}
+
+.cartProductImage {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.form-control {
+  border: 1px solid #c04470;
+}
+
+.form-control:focus {
+  border-color: #800f3a;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  background: #777;
+  color: white;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: #555;
+  color: white;
+}
